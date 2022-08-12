@@ -1,4 +1,4 @@
-# Проект сожержит различные примеры Нейро сетей которые рассмотрены на портале https://proproprogs.ru/ и других ресурсах
+# Проект содержит различные примеры нейро сетей которые рассмотрены на портале https://proproprogs.ru/ и других ресурсах.
 
 This document contains: 
 1. List of items with names of examples files(the header), e.g. "**nlp_lesson_2_1**".
