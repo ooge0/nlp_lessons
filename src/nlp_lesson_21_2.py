@@ -8,7 +8,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.preprocessing.text import Tokenizer, text_to_word_sequence
 from tensorflow.keras.utils import to_categorical
 
-with open('text', 'r', encoding='utf-8') as f:
+with open('../data/text', 'r', encoding='utf-8') as f:
     texts = f.read()
     texts = texts.replace('\ufeff', '')  # убираем первый невидимый символ
 
@@ -22,8 +22,8 @@ print(dist[:10])
 
 data = tokenizer.texts_to_sequences([texts])
 # res = to_categorical(data[0], num_classes=maxWordsCount)
-# print(res.shape)
 res = np.array( data[0] )
+print(res.shape)
 
 inp_words = 3
 n = res.shape[0] - inp_words
