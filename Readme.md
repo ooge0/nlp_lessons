@@ -10,11 +10,34 @@ This document contains:
 7. Comments - any comments that can help to understand current example. Most information are related to the YouTube video and creatred article.  Original information was posted by 'selfedu-rus' / Сергей Балакирев / https://www.youtube.com/c/selfedu_rus/about
 
  
+## nlp_lesson_2_0
+**Example_2_0** 
+
+**Description:** Пример полносвязной сети прямого распространения (Fully meshed feedforward network). 
+
+**Source:** [selfedu-rus_article_nlp_lesson_2_1](https://proproprogs.ru/neural_network/struktura-i-princip-raboty-polnosvyaznyh-neyronnyh-setey)
+
+**Git:** 
+
+**YouTube:** [Пример полносвязной сеть прямого распространения (Fully meshed feedforward network)](https://www.youtube.com/watch?v=VqChpNNYZ8Q&list=PLA0M1Bcd0w8yv0XGiF1wjerjSZVSrYbjh)
+
+**Comments:** 
+* Рассмотрен классический пример полносвязной многослойной сети прямого распространения со ступенчатой активационной функцией.
+* В примере реализован алгоритм определения симпатии девушки к парню если он обладает определнным набором качеств.
+* На рисунке ниже приведена модель принятия решения. Рис.1 содержит описание модели персептрона у которого входным вектором являеться набор качеств парня, которые
+будут анализироваться девушкой ( поведение которой как раз и будет описывать модель реализованной нейросети)
+* Если сумма всех "качеств парня" (весовых коефициентов) заставят принять решение девушкой в пользу парня (функция активации = 1) то он ей подходит.
+В противном случае - нет
+![image info](faq/pics/NN_0_0.png)
+* Рисунки 2-7 описывают модель принятия решения девушкой - ЗА, условие того что парень ей понравился.
+ Рисунки 8-10 описывают модель - ПРОТИВ, когда парень не понравиться девушке. 
+* Данный пример реализован без скрытых слоев, то есть это простейшая НС – персептрон.
+
 
 ## nlp_lesson_2_1
 **Example_2_1** 
 
-**Description:** Пример полносвязной сеть прямого распространения (Fully meshed feedforward network). 
+**Description:** Пример полносвязной многослойной сети прямого распространения (Fully meshed feedforward network). 
 
 **Source:** [selfedu-rus_article_nlp_lesson_2_1](https://proproprogs.ru/neural_network/struktura-i-princip-raboty-polnosvyaznyh-neyronnyh-setey)
 
@@ -23,7 +46,15 @@ This document contains:
 **YouTube:** [Пример полносвязной сеть прямого распространения (Fully meshed feedforward network)](https://www.youtube.com/watch?v=VqChpNNYZ8Q&list=PLA0M1Bcd0w8yv0XGiF1wjerjSZVSrYbjh)
 
 **Comments:** 
-* Рассмотрен классический пример полносвязной сети прямого распространения со ступенчатой активационной функцией.
+* Рассмотрен классический пример полносвязной многослойной сети прямого распространения со ступенчатой активационной функцией.
+* В примере реализован алгоритм определения симпатии девушки к парню если он обладает определнным набором качеств.
+* На рисунке ниже приведена модель принятия решения.
+* Если сумма всех "качеств парня" (весовых коефициентов) заставят принять решение девушкой в пользу парня (функция активации = 1) то он ей подходит.
+В противном случае - нет
+![image info](faq/pics/NN_0_1.png)
+* Рисунки 1,2 описывают модель принятия решения девушкой - ЗА и ПРОТИВ 
+
+
 * Данный пример реализован без скрытых слоев, то есть это простейшая НС – персептрон.
 
 
