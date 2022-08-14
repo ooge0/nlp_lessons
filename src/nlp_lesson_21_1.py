@@ -1,3 +1,4 @@
+# Example 21_1: Description:** RNN. Как рекуррентная нейронная сеть прогнозирует слова НЕ используя Embedding слой.
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 

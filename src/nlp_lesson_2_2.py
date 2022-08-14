@@ -1,11 +1,4 @@
-import numpy as np
-
-# Lesson: 1-2 - "Персептрон - возможности классификации образов, задача XOR"
-# Example: 1-2 Простейший персептрон для задачи классификации двух классов образов. НС без скрытого слоя нейронов, с одной разделяющей гиперплоскости, без смещения.
-# Source: https://proproprogs.ru/neural_network/perseptron-vozmozhnosti-klassifikacii-obrazov-zadacha-xor
-# YouTube: https://www.youtube.com/watch?v=t9QfcFNkG58&list=PLA0M1Bcd0w8yv0XGiF1wjerjSZVSrYbjh
-# Comments: В примере рассмотрена НС без скрытого слоя нейронов, с одной разделяющей гиперплоскости, без смещения.
-
+# Example: 2_2  Простейший персептрон для задачи классификации двух классов образов.
 import numpy as np
 import matplotlib.pyplot as plt
 

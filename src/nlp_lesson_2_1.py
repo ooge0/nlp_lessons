@@ -1,9 +1,5 @@
+# Example_2_1  Пример полносвязной многослойной нейросети прямого распространения (Fully meshed feedforward network).
 import numpy as np
-
-# Lesson-2 - "Структура и принцип работы полносвязных нейронных сетей (со ступенчатой активационной функцией)"
-# Example-2 Полносвязная сеть прямого распространения / Fully meshed feedforward network
-# Source: https://proproprogs.ru/neural_network/struktura-i-princip-raboty-polnosvyaznyh-neyronnyh-setey
-# Comments: В примере рассмотрена НС с одним скрытым слоем нейронов, с одной разделяющей гиперплоскости, без смещения.
 
 def act(x): # << функция активации
     return 0 if x < 0.5 else 1
@@ -28,7 +24,7 @@ def go(house, rock, attr):
 
     return y
 
-# здесь мы определяем начальные характеристики мальчика. что у него есть и что он умеет.
+# здесь мы указываем набор качеств мальчика.то что у него есть и что он умеет.
 house = 1
 rock = 0
 attr = 1

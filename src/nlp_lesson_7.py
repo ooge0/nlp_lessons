@@ -1,3 +1,4 @@
+# Example 7: Пример использования API Keras для задачи перевода градусов Цельсия в градусы Фаренгейта.
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 

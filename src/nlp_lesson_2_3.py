@@ -1,11 +1,6 @@
-import numpy as np
-import matplotlib.pyplot as plt
+# Example: 2_3 Решение задачи XOR с одним скрытым слоем нейронов, с двумя разделяющими гиперплоскостями, со смещением.
 
-# Lesson: 1-3 - "Персептрон - возможности классификации образов, задача XOR"
-# Example: 1-3 Решение задачи XOR с одним скрытым слоем нейронов, с двумя разделяющими гиперплоскостями, со смещением. Простейший персептрон для задачи классификации двух классов образов
-# Source: https://proproprogs.ru/neural_network/perseptron-vozmozhnosti-klassifikacii-obrazov-zadacha-xor
-# YouTube: https://www.youtube.com/watch?v=t9QfcFNkG58&list=PLA0M1Bcd0w8yv0XGiF1wjerjSZVSrYbjh
-# Comments: В примере рассмотрено решение задачи XOR с одним скрытым слоем нейронов, с двумя разделяющими гиперплоскостями, со смещением.
+import numpy as np
 
 def act(x):
     return 0 if x <= 0 else 1

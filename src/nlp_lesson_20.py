@@ -1,3 +1,4 @@
+# Example 20: Description:** RNN. Как рекуррентная нейронная сеть прогнозирует символы.
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 

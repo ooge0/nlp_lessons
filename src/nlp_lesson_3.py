@@ -1,10 +1,5 @@
+# Lesson: 3 - Алгоритм обучения по методу обратного распространения (Back propagation).
 import numpy as np
-import matplotlib.pyplot as plt
-
-# Lesson: 3 - Алгоритм обучения по методу обратного распространения (Back propagation)
-# Source: https://proproprogs.ru/neural_network/back-propagation-algoritm-obucheniya-po-metodu-obratnogo-rasprostraneniya
-# YouTube: https://www.youtube.com/watch?v=UXB9bFj-UA4&list=PLA0M1Bcd0w8yv0XGiF1wjerjSZVSrYbjh&index=4
-# Comments: В примере рассмотрено решение задачи XOR с одним скрытым слоем нейронов, с двумя разделяющими гиперплоскостями, со смещением.
 
 def f(x):
     return 2/(1 + np.exp(-x)) - 1

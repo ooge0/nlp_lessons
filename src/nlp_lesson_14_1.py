@@ -1,3 +1,4 @@
+# Example 14_1: Description:** CNN. Handwritten digit recognition using MNIST data.
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
