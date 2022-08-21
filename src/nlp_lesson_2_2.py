@@ -2,16 +2,16 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-N = 5
-b = 3
+N = 5 # задаем кол-во образов для каждого класса
+b = 3 # задаем смещение
 
-x1 = np.random.random(N)
-x2 = x1 + [np.random.randint(10)/10 for i in range(N)] + b
-C1 = [x1, x2]
+x1 = np.random.random(N) # генерируем произвольный набор значений Х1, класса С1
+x2 = x1 + [np.random.randint(10)/10 for i in range(N)] + b # вычисляем Х2 значения с учетом случайно сгенерированного отклонения от точки Х1, класса С1
+C1 = [x1, x2] # формируем массив точек из Х1 и Х2 для класса С1
 
-x1 = np.random.random(N)
-x2 = x1 - [np.random.randint(10)/10 for i in range(N)] - 0.1 + b
-C2 = [x1, x2]
+x1 = np.random.random(N)  # генерируем произвольный набор значений Х1, класса С2
+x2 = x1 - [np.random.randint(10)/10 for i in range(N)] - 0.1 + b # вычисляем Х2 значения с учетом случайно сгенерированного отклонения от точки Х1, класса С2
+C2 = [x1, x2] # формируем массив точек из Х1 и Х2 для класса С2
 
 f = [0+b, 1+b]
 
